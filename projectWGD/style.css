@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.msg_cont{
+    height:100vh ;
+    width: 100vw;
+    background-color: #081b31;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;  
+}
+
+
+
+#msg_dis{
+    display: inline;
+    font-size: 5vmin;
+    color: #ffffc7;
+    margin-top: 1.9rem;
+}
+
+
+#restrt{
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    border: none;
+    box-shadow: 0 0 .6rem;
+    padding: 1rem;
+    border-radius: 9%;
+    background-color: black;
+    color: #fff;
+}
+#restrt:hover{
+    cursor:pointer;
+    background-color: black;
+    color: #fff;
+    opacity: .5;
+}
+
+
+.hide{
+    display: none;
+}
